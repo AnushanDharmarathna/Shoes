@@ -1,12 +1,12 @@
-import p1_img from './Product_1.png'
-import p2_img from './Product_2.png'
-import p3_img from './Product_3.png'
-import p4_img from './Product_4.png'
+import p1_img from './Ni_Product_1.png'
+import p2_img from './Ni_Product_2.png'
+import p3_img from './Ni_Product_3.png'
+import p4_img from './Ni_Product_4.png'
 
 let data_product = [
     {
         id:1,
-        name:"Sneakers Air Jordan Shoe Nike Air Max",
+        name:"Air Jordan Shoe Nike Air Max",
         image:p1_img,
         new_price:200.00,
         old_price:220.00,
