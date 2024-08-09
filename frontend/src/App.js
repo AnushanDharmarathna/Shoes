@@ -7,6 +7,9 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
+import nike_banner from './Components/Assets/banner_ni.png'
+import addidas_banner from './Components/Assets/banner_ad.png'
+import reebok_banner from './Components/Assets/banner_re.png'
 
 function App() {
   return (
@@ -15,9 +18,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/nike' element={<HomeCategory category="nike"/>}/>
-        <Route path='/addidas' element={<HomeCategory category="addidas"/>}/>
-        <Route path='/reebok' element={<HomeCategory category="reebok"/>}/>
+        <Route path='/nike' element={<HomeCategory banner={nike_banner} category="nike"/>}/>
+        <Route path='/addidas' element={<HomeCategory banner={addidas_banner} category="addidas"/>}/>
+        <Route path='/reebok' element={<HomeCategory banner={reebok_banner} category="reebok"/>}/>
 
         <Route path='/product' element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>
