@@ -41,6 +41,7 @@ let all_product = [
     {
         id:1,
         name:"Air Jordan Shoe Nike Air Max",
+        category: "nike",
         image:p1_img,
         new_price:200.00,
         old_price:220.00,
@@ -48,6 +49,7 @@ let all_product = [
     {
         id:2,
         name:"Nike Air Max Nike Free Air Force Shoe",
+        category: "nike",
         image:p2_img,
         new_price:100.00,
         old_price:120.00,
@@ -55,6 +57,7 @@ let all_product = [
     {
         id:3,
         name:"Shoe Nike Air Max Sneakers Running, running shoes",
+        category: "nike",
         image:p3_img,
         new_price:100.00,
         old_price:120.00,
@@ -62,6 +65,7 @@ let all_product = [
     {
         id:4,
         name:"Nike Free Nike Air Max Sneakers Shoe, red shoes",
+        category: "nike",
         image:p4_img,
         new_price:150.00,
         old_price:180.00,
@@ -69,6 +73,7 @@ let all_product = [
     {
         id:5,
         name:"Nike Air Jordan 1 Mid shoes",
+        category: "nike",
         image:p5_img,
         new_price:250.00,
         old_price:280.00,
@@ -76,6 +81,7 @@ let all_product = [
     {
         id:6,
         name:"Nike Womens Air Zoom",
+        category: "nike",
         image:p6_img,
         new_price:150.00,
         old_price:170.00,
@@ -83,6 +89,7 @@ let all_product = [
     {
         id:7,
         name:"Nike AF1 Air Force One",
+        category: "nike",
         image:p7_img,
         new_price:140.00,
         old_price:160.00,
@@ -90,6 +97,7 @@ let all_product = [
     {
         id:8,
         name:"Nike Womens Air Zoom",
+        category: "nike",
         image:p8_img,
         new_price:150.00,
         old_price:170.00,
@@ -97,6 +105,7 @@ let all_product = [
     {
         id:9,
         name:"Nike Free Run 2 Hyper Cobalt Blue",
+        category: "nike",
         image:p9_img,
         new_price:80.00,
         old_price:100.00,
@@ -104,6 +113,7 @@ let all_product = [
     {
         id:10,
         name:"Nike Air Max 2017 “Deep Royal Blue”",
+        category: "nike",
         image:p10_img,
         new_price:250.00,
         old_price:260.00,
@@ -111,6 +121,7 @@ let all_product = [
     {
         id:11,
         name:"Nike Patike Nike Zoom Vapor 9.5 Tour",
+        category: "nike",
         image:p11_img,
         new_price:200.00,
         old_price:220.00,
@@ -118,6 +129,7 @@ let all_product = [
     {
         id:12,
         name:"Air Jordan 1 Retro High Flex PS 'Varsity Red'",
+        category: "nike",
         image:p12_img,
         new_price:300.00,
         old_price:320.00,
@@ -125,6 +137,7 @@ let all_product = [
     {
         id:13,
         name:"Adidas NMD_R1 - Stadium Goods",
+        category: "addidas",
         image:p13_img,
         new_price:150.00,
         old_price:180.00,
@@ -132,6 +145,7 @@ let all_product = [
     {
         id:14,
         name:"Adidas Ultra Boost 2.0 Mineral Green",
+        category: "addidas",
         image:p14_img,
         new_price:180.00,
         old_price:200.00,
@@ -139,6 +153,7 @@ let all_product = [
     {
         id:15,
         name:"Adidas Women's Barricade",
+        category: "addidas",
         image:p15_img,
         new_price:140.00,
         old_price:150.00,
@@ -146,6 +161,7 @@ let all_product = [
     {
         id:16,
         name:"Adidas Superstar II C White Black Leather",
+        category: "addidas",
         image:p16_img,
         new_price:100.00,
         old_price:120.00,
@@ -153,6 +169,7 @@ let all_product = [
     {
         id:17,
         name:"Adidas Predito LZ TRX FG Soccer Cleat",
+        category: "addidas",
         image:p17_img,
         new_price:200.00,
         old_price:220.00,
@@ -160,6 +177,7 @@ let all_product = [
     {
         id:18,
         name:"Adidas Men's Stabil S Indoor Court Shoe",
+        category: "addidas",
         image:p18_img,
         new_price:130.00,
         old_price:140.00,
@@ -167,6 +185,7 @@ let all_product = [
     {
         id:19,
         name:"Adidas Stella McCartney Dorifera",
+        category: "addidas",
         image:p19_img,
         new_price:250.00,
         old_price:280.00,
@@ -174,6 +193,7 @@ let all_product = [
     {
         id:20,
         name:"Adidas Superstar 80s",
+        category: "addidas",
         image:p20_img,
         new_price:70.00,
         old_price:90.00,
@@ -181,6 +201,7 @@ let all_product = [
     {
         id:21,
         name:"Adidas F50 Adizero TRX FG",
+        category: "addidas",
         image:p21_img,
         new_price:130.00,
         old_price:140.00,
@@ -188,6 +209,7 @@ let all_product = [
     {
         id:22,
         name:"Adidas Tubular Radial Men's",
+        category: "addidas",
         image:p22_img,
         new_price:280.00,
         old_price:300.00,
@@ -195,6 +217,7 @@ let all_product = [
     {
         id:23,
         name:"Adidas Nmd Trail Pk White Mountaineering Navy Red White",
+        category: "addidas",
         image:p23_img,
         new_price:150.00,
         old_price:160.00,
@@ -202,6 +225,7 @@ let all_product = [
     {
         id:24,
         name:"Adidas Munchen Navy Blue",
+        category: "addidas",
         image:p24_img,
         new_price:80.00,
         old_price:100.00,
@@ -209,6 +233,7 @@ let all_product = [
     {
         id:25,
         name:"Reebok Classic Leather Black",
+        category: "reebok",
         image:p25_img,
         new_price:200.00,
         old_price:220.00,
@@ -216,6 +241,7 @@ let all_product = [
     {
         id:26,
         name:"Reebok Exofit Lo Clean Logo Trainers White",
+        category: "reebok",
         image:p26_img,
         new_price:80.00,
         old_price:100.00,
@@ -223,6 +249,7 @@ let all_product = [
     {
         id:27,
         name:"Men's Reebok KL x Classic Leather 'Perfect Split",
+        category: "reebok",
         image:p27_img,
         new_price:50.00,
         old_price:60.00,
@@ -230,6 +257,7 @@ let all_product = [
     {
         id:28,
         name:"Reebok Pump Plus Tech EU 43",
+        category: "reebok",
         image:p28_img,
         new_price:100.00,
         old_price:120.00,
@@ -237,6 +265,7 @@ let all_product = [
     {
         id:29,
         name:"Reebok Pump Omni Lite Dee Brown",
+        category: "reebok",
         image:p29_img,
         new_price:80.00,
         old_price:100.00,
@@ -244,6 +273,7 @@ let all_product = [
     {
         id:30,
         name:"Reebok Crossfit Nano 8.0 Flexweave",
+        category: "reebok",
         image:p30_img,
         new_price:50.00,
         old_price:70.00,
@@ -251,6 +281,7 @@ let all_product = [
     {
         id:31,
         name:"Reebok Pump Omni Lite Solebox Grey Pink",
+        category: "reebok",
         image:p31_img,
         new_price:120.00,
         old_price:140.00,
@@ -258,6 +289,7 @@ let all_product = [
     {
         id:32,
         name:"Reebok Club C 85 Tonal Gum Hunter Green",
+        category: "reebok",
         image:p32_img,
         new_price:150.00,
         old_price:160.00,
@@ -265,6 +297,7 @@ let all_product = [
     {
         id:33,
         name:"Reebok Womens Blue Mesh Work Shoes Steel Toe Athletic Oxfords",
+        category: "reebok",
         image:p33_img,
         new_price:40.00,
         old_price:50.00,
@@ -272,6 +305,7 @@ let all_product = [
     {
         id:34,
         name:"Reebok Classic Leather Deconstructed",
+        category: "reebok",
         image:p34_img,
         new_price:130.00,
         old_price:140.00,
@@ -279,6 +313,7 @@ let all_product = [
     {
         id:35,
         name:"Reebok Shaq Attaq",
+        category: "reebok",
         image:p35_img,
         new_price:130.00,
         old_price:150.00,
@@ -286,6 +321,7 @@ let all_product = [
     {
         id:36,
         name:"Men's Fila Orbit Low Shoes",
+        category: "reebok",
         image:p36_img,
         new_price:200.00,
         old_price:210.00,
