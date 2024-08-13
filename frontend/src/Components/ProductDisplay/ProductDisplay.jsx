@@ -2,9 +2,12 @@ import React from 'react'
 import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png'
 import star_dull_icon from '../Assets/star_dull_icon.png'
+import { useContext } from 'react'
+import { HomeContext } from '../../Context/HomeContext'
 
 const ProductDisplay = (props) => {
     const {product} = props;
+    const {addToCart} = useContext(HomeContext);
   return (
     <div className='productdisplay'>
         <div className="productdisplay-left">
@@ -47,7 +50,7 @@ const ProductDisplay = (props) => {
                     <div>44</div>
                 </div>
             </div>
-            <button>ADD TO CART</button>
+            <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
             <p className="productdisplay-right-category"><span>Category : </span>Nike</p>
             <p className="productdisplay-right-category"><span>Tags : </span>Modern, Latest</p>
         </div>
