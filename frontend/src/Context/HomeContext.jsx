@@ -24,7 +24,7 @@ const HomeContextProvider = (props) => {
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     }
 
-    const getTotalCartAmount = () => {
+    const getTotalCartAmount=()=>{
         let totalAmount = 0;
         for(const item in cartItems){
             if(cartItems[item]>0){
@@ -35,7 +35,17 @@ const HomeContextProvider = (props) => {
         return totalAmount;
     }
 
-    const contextValue = {getTotalCartAmount,all_product,cartItems,addToCart,removeFromCart};
+    const getTotalCartItems=()=>{
+        let totalitem = 0;
+        for(const item in cartItems){
+            if(cartItems[item]>0){
+                totalitem += cartItems[item];
+            }
+        }
+        return totalitem;
+    }
+
+    const contextValue = {getTotalCartItems,getTotalCartAmount,all_product,cartItems,addToCart,removeFromCart};
 
     return (
         <HomeContext.Provider value={contextValue}>
