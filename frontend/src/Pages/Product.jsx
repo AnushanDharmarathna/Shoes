@@ -4,6 +4,7 @@ import {HomeContext} from '../Context/HomeContext'
 import Breadcrums from '../Components/Breadcrums/Breadcrums';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import DescriptionBox from '../Components/DescriptionBox/DescriptionBox';
+import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
 
 const Product = () => {
   const {all_product}= useContext(HomeContext);
@@ -14,6 +15,7 @@ const Product = () => {
       <Breadcrums product={product}/>
       <ProductDisplay product={product} />
       <DescriptionBox/>
+      <RelatedProducts/>
     </div>
   )
 }
